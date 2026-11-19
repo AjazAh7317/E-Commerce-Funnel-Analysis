@@ -1,12 +1,12 @@
 # E-Commerce Marketing Funnel Analysis
 
-An end-to-end data analytics project focused on understanding customer behaviour, tracking e-commerce conversion rates, and evaluating marketing campaign performance using Python, SQL, and Power BI.
+An end-to-end data analytics project focused on understanding customer behaviour, tracking e-commerce conversion rates, and evaluating marketing campaign performance using Python, MySQL, and Power BI.
 
 ## Project Overview
 
 This project explores an e-commerce marketing dataset containing more than 120,000 customer interaction records. The main goal was to understand how users move through different stages of the purchasing journey, identify where potential customers drop off, and determine which marketing channels generate the best results.
 
-I worked through the complete data analytics process, starting with data cleaning and preparation, followed by SQL-based analysis, exploratory data analysis, statistical testing, and interactive dashboard development in Power BI.
+I worked through the complete data analytics process, starting with data cleaning and preparation, followed by MySQL-based analysis, exploratory data analysis, statistical testing, and interactive dashboard development in Power BI.
 
 The analysis helped uncover important patterns in customer behaviour and provided practical recommendations to improve conversion rates and marketing ROI.
 
@@ -36,7 +36,7 @@ The analysis helped uncover important patterns in customer behaviour and provide
 | Data Analysis | Pandas, NumPy |
 | Data Visualization | Matplotlib, Seaborn |
 | Statistical Analysis | SciPy, Statsmodels |
-| Database | SQLite |
+| Database | MySQL |
 | Business Intelligence | Power BI |
 | Development Environment | Jupyter Notebook |
 
@@ -44,9 +44,9 @@ The analysis helped uncover important patterns in customer behaviour and provide
 
 1. **Data Cleaning and Preparation:** Used Python and Pandas to handle missing values, check data consistency, remove duplicates where necessary, and prepare the dataset for analysis.
 
-2. **SQL Analysis:** Used SQLite to write queries, aggregate data, and calculate important business metrics.
+2. **SQL Analysis:** Used MySQL to write queries, perform data aggregation, analyse customer behaviour, and calculate important business metrics.
 
-3. **Exploratory Data Analysis:** Analysed customer interactions, purchasing patterns, conversion trends, and marketing channel performance.
+3. **Exploratory Data Analysis (EDA):** Analysed customer interactions, purchasing patterns, conversion trends, and marketing channel performance to identify meaningful insights.
 
 4. **Statistical Analysis:** Applied statistical techniques and hypothesis testing to validate observations and understand differences in performance.
 
@@ -77,23 +77,26 @@ Based on the analysis, I identified the following opportunities:
 The dashboard is divided into three sections to make the findings easier to explore.
 
 ### 1. Executive Dashboard
+
 ![Executive Dashboard](figures/dashboard_page1.png)
 
 Provides an overview of overall business performance and key KPIs.
 
 ### 2. Marketing Funnel Analysis
+
 ![Marketing Funnel Analysis](figures/dashboard_page2.png)
 
 Highlights customer movement through the funnel and identifies the stages with the highest drop-off rates.
 
 ### 3. Customer and Marketing Insights
+
 ![Customer and Marketing Insights](figures/dashboard_page3.png)
 
 Explores customer segments, marketing channel performance, and geographical trends.
 
 ## Project Workflow
 
-Raw Dataset → Data Cleaning → SQL Analysis → Exploratory Data Analysis → Statistical Testing → Power BI Dashboard → Business Recommendations
+Raw Dataset → Data Cleaning → MySQL Analysis → Exploratory Data Analysis → Statistical Testing → Power BI Dashboard → Business Recommendations
 
 ## Project Structure
 
@@ -119,25 +122,32 @@ E-Commerce-Marketing-Funnel-Analysis/
 
 ## How to Run the Project
 
-Clone the repository:
+**1. Clone the repository**
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-Move into the project directory:
+**2. Navigate to the project directory**
 
 ```bash
 cd E-Commerce-Marketing-Funnel-Analysis
 ```
 
-Install the required libraries:
+**3. Install the required Python libraries**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch Jupyter Notebook:
+**4. Set up MySQL**
+
+- Install and start MySQL Server.
+- Create a database for the project.
+- Import the dataset into the database.
+- Update the database connection credentials in the notebook or configuration file.
+
+**5. Launch Jupyter Notebook**
 
 ```bash
 jupyter notebook
@@ -149,11 +159,11 @@ Open `marketing_funnel_analysis.ipynb` and run the cells to explore the analysis
 
 - Cleaned and processed e-commerce dataset.
 - Python notebook containing data cleaning, EDA, and statistical analysis.
-- SQL queries for business metric calculations.
+- MySQL queries for business metric calculations.
 - Interactive three-page Power BI dashboard.
 - Visual reports highlighting customer and marketing performance.
 - Business insights and actionable recommendations.
 
----
+## What I Learned
 
-**What I learned:** Through this project, I gained practical experience in working with customer-level data, writing SQL queries, performing exploratory and statistical analysis, building interactive dashboards, and translating analytical results into business recommendations.
+Through this project, I gained practical experience in working with customer interaction data, writing MySQL queries, performing exploratory and statistical analysis, building interactive dashboards, and translating analytical results into meaningful business recommendations.
