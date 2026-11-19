@@ -1,192 +1,159 @@
-<<<<<<< HEAD
-# Optimizing E-Commerce Marketing Funnel Performance
+# E-Commerce Marketing Funnel Analysis
 
-An end-to-end data analytics project that evaluates e-commerce marketing performance, identifies customer conversion bottlenecks, and provides data-driven business recommendations using Python, SQL, and Power BI.
+An end-to-end data analytics project focused on understanding customer behaviour, tracking e-commerce conversion rates, and evaluating marketing campaign performance using Python, SQL, and Power BI.
 
----
+## Project Overview
 
-## Summary
+This project explores an e-commerce marketing dataset containing more than 120,000 customer interaction records. The main goal was to understand how users move through different stages of the purchasing journey, identify where potential customers drop off, and determine which marketing channels generate the best results.
 
-This project analyzes an e-commerce marketing funnel dataset containing over 120,000 customer interaction records. The objective is to evaluate overall business performance, identify key conversion bottlenecks, compare marketing channel effectiveness, and generate actionable recommendations for improving marketing ROI and customer conversion.
+I worked through the complete data analytics process, starting with data cleaning and preparation, followed by SQL-based analysis, exploratory data analysis, statistical testing, and interactive dashboard development in Power BI.
 
-The project follows a complete analytics workflow including SQL data extraction, Python-based data cleaning and exploratory analysis, statistical testing, and interactive dashboard development in Power BI.
+The analysis helped uncover important patterns in customer behaviour and provided practical recommendations to improve conversion rates and marketing ROI.
 
----
+## Project Objectives
 
-## Skills Applied
+- Understand customer behaviour across different stages of the purchasing journey.
+- Identify where customers are dropping off in the conversion funnel.
+- Compare the performance of different marketing channels.
+- Evaluate campaign effectiveness using ROI and Customer Acquisition Cost (CAC).
+- Analyse conversion trends across devices and geographical locations.
+- Provide actionable recommendations based on the findings.
 
-- Data Cleaning & Data Validation
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- SQL Querying & Data Aggregation
-- Statistical Analysis & Hypothesis Testing
-- Business Intelligence Dashboard Design
-- Data Storytelling & Business Recommendation
+## Key Metrics Analysed
 
----
+- **Conversion Rate:** Percentage of users completing a purchase.
+- **Customer Acquisition Cost (CAC):** Cost of acquiring a customer through different marketing channels.
+- **Return on Investment (ROI):** Revenue generated compared to marketing expenditure.
+- **Funnel Drop-off Rate:** Percentage of users leaving at each stage of the purchasing journey.
+- **Channel Performance:** Comparison of conversion rates and profitability across marketing channels.
+- **Customer Engagement:** Session activity and time spent interacting with the platform.
 
-## Features
+## Tools and Technologies
 
-- Cleaned and transformed raw marketing funnel data using Python (Pandas)
-- Performed SQL aggregation and business metric analysis using SQLite
-- Conducted exploratory data analysis and statistical validation
-- Built an interactive three-page Power BI dashboard
-- Identified customer conversion bottlenecks and high-performing marketing channels
-- Generated data-driven business recommendations
+| Category | Technologies |
+|---|---|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Statistical Analysis | SciPy, Statsmodels |
+| Database | SQLite |
+| Business Intelligence | Power BI |
+| Development Environment | Jupyter Notebook |
 
----
+## Work Performed
 
-## Tech Stack
+1. **Data Cleaning and Preparation:** Used Python and Pandas to handle missing values, check data consistency, remove duplicates where necessary, and prepare the dataset for analysis.
 
-**Programming Language**
-- Python
+2. **SQL Analysis:** Used SQLite to write queries, aggregate data, and calculate important business metrics.
 
-**Database**
-- SQLite
+3. **Exploratory Data Analysis:** Analysed customer interactions, purchasing patterns, conversion trends, and marketing channel performance.
 
-**Visualization**
-- Power BI
+4. **Statistical Analysis:** Applied statistical techniques and hypothesis testing to validate observations and understand differences in performance.
 
-**Libraries**
-- Pandas
-- NumPy
-- Matplotlib
-- SciPy
-- Statsmodels
+5. **Dashboard Development:** Created an interactive, three-page Power BI dashboard to present business performance, funnel conversion trends, and marketing insights.
 
-**Tools**
-- Jupyter Notebook
+6. **Business Recommendations:** Converted analytical findings into practical suggestions for improving customer experience and marketing efficiency.
 
----
+## Key Findings
 
-## Demo
-
-### Executive Dashboard
-
-![Executive Dashboard](figures/dashboard_page1.png)
-
-### Marketing Funnel Analysis
-
-![Marketing Funnel Analysis](figures/dashboard_page2.png)
-
-### Customer & Marketing Insights
-
-![Customer & Marketing Insights](figures/dashboard_page3.png)
-
----
-
-## Background and Problem
-
-Many e-commerce businesses invest heavily in marketing but lack visibility into where customers abandon the purchasing journey and which marketing channels deliver the greatest business value.
-
-This project aims to answer the following business questions:
-
-- How is the business performing overall?
-- Where do customers drop off in the marketing funnel?
-- Which marketing channels perform best?
-- Which customer segments contribute the most revenue?
-- What business actions should be prioritized?
-
----
-
-## Project Workflow
-
-Raw Data
-
-↓
-
-SQL (SQLite)
-
-↓
-
-Python Data Cleaning
-
-↓
-
-EDA & Statistical Analysis
-
-↓
-
-Power BI Dashboard
-
-↓
-
-Business Insights & Recommendations
-
----
-
-
-## How to Run
-
-```bash
-git clone https://github.com/jiajialiang32-ui/E-Commerce-Marketing-Funnel-Analytics.git
-
-cd E-Commerce-Marketing-Funnel-Analytics
-
-pip install -r requirements.txt
-
-jupyter notebook notebooks/marketing_funnel_analysis.ipynb
-```
-
-=======
-# Ecomm-Funnel-Analysis
-
-An end-to-end analytical project focused on a simulated e-commerce dataset, designed to study customer behavior throughout the purchase journey. The project examines session-level interactions, conversion trends across various user segments, and evaluates the effectiveness of marketing channels using business performance metrics.
-
-## Project Objective
-
-The objective of this project is to understand customer behavior across different stages of the e-commerce funnel, beginning with website visits and ending with successful purchases. It also aims to assess the impact of marketing channels using important business metrics such as Conversion Rate, Customer Acquisition Cost (CAC), and Return on Investment (ROI), helping teams make data-driven decisions.
-
-## Key KPIs Monitored
-
-* Funnel conversion analysis across stages (Visit → Product View → Cart → Checkout → Purchase)
-* Conversion performance based on device type and user location
-* Marketing channel effectiveness (Email, Instagram, Google Ads)
-* ROI and Customer Acquisition Cost for each campaign channel
-* Session-level metrics including event flow and engagement duration
-
-## Visualizations Included
-
-The analysis contains five important visual reports:
-
-* Funnel stage drop-off analysis
-* Marketing channel conversion comparison
-* Customer Acquisition Cost (CAC) by channel
-* User distribution across device categories
-* Return on Investment (ROI) comparison chart
-
-All generated visual outputs are stored inside the `visuals/` directory for easy reference.
-
-## Tech Stack
-
-* Python 3.x
-* Pandas
-* NumPy
-* Seaborn
-* Matplotlib
-* Jupyter Notebook
-* Markdown
-
-## Major Findings
-
-* Email marketing produced the strongest results with the highest ROI (32,000%) and the lowest customer acquisition cost.
-* The largest number of users exited the process between the cart and checkout stages, indicating possible issues in the purchase flow.
-* Mobile users showed slightly lower conversion rates than desktop users, highlighting an opportunity to improve mobile usability.
-* Bangalore and Delhi demonstrated stronger conversion performance compared to other locations.
-* Instagram generated a high volume of traffic but was less efficient in terms of return on investment.
+- Email marketing delivered the highest ROI (32,000%) and had the lowest customer acquisition cost among the analysed channels.
+- The biggest customer drop-off occurred between the cart and checkout stages, suggesting potential problems in the purchasing process.
+- Mobile users had slightly lower conversion rates than desktop users, indicating room for improvement in the mobile shopping experience.
+- Bangalore and Delhi showed comparatively stronger conversion performance than other locations.
+- Instagram generated considerable website traffic but delivered lower ROI compared to email marketing.
 
 ## Business Recommendations
 
-* Increase focus and budget allocation toward Email campaigns due to their high efficiency.
-* Enhance the mobile user experience, especially during payment and checkout steps.
-* Improve the transition from cart to checkout by simplifying the process and reducing unnecessary steps.
-* Introduce location-specific campaigns and promotions for high-performing regions.
-* Optimize Instagram advertising strategies to improve campaign effectiveness and profitability.
+Based on the analysis, I identified the following opportunities:
+
+- Allocate more resources to email marketing campaigns because of their strong ROI and lower acquisition costs.
+- Simplify the checkout process to reduce customer drop-offs.
+- Improve the mobile shopping experience, particularly during checkout and payment.
+- Run targeted campaigns in locations with stronger conversion performance.
+- Review Instagram advertising strategies to improve campaign profitability rather than focusing only on traffic generation.
+
+## Power BI Dashboard
+
+The dashboard is divided into three sections to make the findings easier to explore.
+
+### 1. Executive Dashboard
+![Executive Dashboard](figures/dashboard_page1.png)
+
+Provides an overview of overall business performance and key KPIs.
+
+### 2. Marketing Funnel Analysis
+![Marketing Funnel Analysis](figures/dashboard_page2.png)
+
+Highlights customer movement through the funnel and identifies the stages with the highest drop-off rates.
+
+### 3. Customer and Marketing Insights
+![Customer and Marketing Insights](figures/dashboard_page3.png)
+
+Explores customer segments, marketing channel performance, and geographical trends.
+
+## Project Workflow
+
+Raw Dataset → Data Cleaning → SQL Analysis → Exploratory Data Analysis → Statistical Testing → Power BI Dashboard → Business Recommendations
+
+## Project Structure
+
+```text
+E-Commerce-Marketing-Funnel-Analysis/
+│
+├── data/
+│   └── dataset.csv
+│
+├── notebooks/
+│   └── marketing_funnel_analysis.ipynb
+│
+├── figures/
+│   ├── dashboard_page1.png
+│   ├── dashboard_page2.png
+│   └── dashboard_page3.png
+│
+├── visuals/
+│
+├── requirements.txt
+└── README.md
+```
+
+## How to Run the Project
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Move into the project directory:
+
+```bash
+cd E-Commerce-Marketing-Funnel-Analysis
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open `marketing_funnel_analysis.ipynb` and run the cells to explore the analysis.
 
 ## Project Deliverables
 
-* Cleaned and transformed e-commerce dataset
-* KPI calculations and analytical insights
-* Visual dashboards and charts
-* Complete GitHub project documentation
->>>>>>> e1b9708bee9eab25a692b1d2b0fc22d96c4cead2
+- Cleaned and processed e-commerce dataset.
+- Python notebook containing data cleaning, EDA, and statistical analysis.
+- SQL queries for business metric calculations.
+- Interactive three-page Power BI dashboard.
+- Visual reports highlighting customer and marketing performance.
+- Business insights and actionable recommendations.
+
+---
+
+**What I learned:** Through this project, I gained practical experience in working with customer-level data, writing SQL queries, performing exploratory and statistical analysis, building interactive dashboards, and translating analytical results into business recommendations.
